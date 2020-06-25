@@ -35,6 +35,10 @@
 		a.js-selected-navigation-item {
 			visibility: unset !important;
 		}
+		/* Hides overflow button when not needed */
+		.js-responsive-underlinenav-overflow{
+		    display: none;
+		}
 	}
 	/* Lines between files/folders. */
 	.js-navigation-item:not(.js-issue-row) {
