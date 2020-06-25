@@ -1,0 +1,47 @@
+/* ==UserStyle==
+@name         GitHub Retro
+@version      0.1.0
+@description  Retrofit the repository interface prior to June 2020 GitHub update
+@namespace    ashwinvis
+@author       ashwinvis
+@homepageURL  https://github.com/ashwinvis/github-retro
+@supportURL   https://github.com/ashwinvis/github-retro/issues
+@updateURL    https://raw.githubusercontent.com/ashwinvis/github-retro/master/github-retro.user.css
+@license      CC-BY-SA-4.0
+@preprocessor uso
+==/UserStyle== */
+@-moz-document regexp("^https?:\\/\\/github.com.*") {
+	@media (min-width: 1280px) {
+		.js-repo-nav,
+		.px-lg-5 {
+			max-width: 1280px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 32px !important;
+			padding-right: 32px !important;
+		}
+		/* Horizontal line under header */
+		.pagehead {
+			box-shadow: inset 0 -1px 0 #e1e4e8 !important;
+		}
+		/*
+		At desktop resolutions some of the repo navigation items disappear. This fixes it.
+		Uses !important because it appears to be controlled by a resize event handler.
+		Possibly a GitHub bug.
+		*/
+		.js-selected-navigation-item {
+			visibility: unset !important;
+		}
+	}
+	/* Lines between files/folders. */
+	.js-navigation-item:not(.js-issue-row) {
+		border-bottom: solid 1px #8e8e8e4a;
+
+	}
+}
+@-moz-document domain("github.com") {
+	/* Squarish avatars. */
+	.avatar-user {
+		border-radius: 10% !important;
+	}
+}
