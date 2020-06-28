@@ -50,4 +50,20 @@
 	.avatar-user {
 		border-radius: 10% !important;
 	}
+	
+	.user-status-circle-badge {
+	    width: 60px;
+	    box-shadow: none;
+	    border: none;
+	}
+
+	.user-status-circle-badge:hover {
+	    width: unset;
+	    box-shadow: none;
+	    border: none;
+	}
+
+	.user-status-circle-badge-container {
+	    left: 102%;
+	}
 }
