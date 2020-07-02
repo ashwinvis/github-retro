@@ -57,10 +57,18 @@
 	    border: none;
 	}
 
+	.user-status-circle-badge-container {
+	    width: 60px;
+	}
+
 	.user-status-circle-badge:hover {
 	    width: unset;
 	    box-shadow: none;
 	    border: none;
+	}
+
+	.user-status-circle-badge-container:hover {
+	    width: unset;
 	}
 
 	.user-status-circle-badge-container {
