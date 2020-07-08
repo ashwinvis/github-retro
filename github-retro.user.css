@@ -40,10 +40,6 @@
 		    display: none;
 		}
 	}
-	/* Lines between files/folders. */
-	.js-navigation-item:not(.js-issue-row) {
-		border-bottom: solid 1px rgba(0, 0, 0, 0.1);
-	}
 }
 @-moz-document domain("github.com") {
 	/* Squarish avatars. */
