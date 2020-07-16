@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         GitHub Retro
-@version      0.1.1
+@version      0.1.2
 @description  Retrofit the repository interface prior to June 2020 GitHub update
 @namespace    ashwinvis
 @author       ashwinvis
@@ -15,7 +15,7 @@
 }
 @-moz-document regexp("^https?:\\/\\/github.com.*") {
 	@media (min-width: 1280px) {
-		.pagehead.repohead > div,
+		main > div > div.d-flex,
 		nav.UnderlineNav {
 			max-width: 1280px;
 			margin-left: auto;
@@ -24,7 +24,8 @@
 			padding-right: 32px !important;
 		}
 		/* Horizontal line under header */
-		div.pagehead {
+		div.bg-gray-light,
+		header.pagehead > div {
 			box-shadow: inset 0 -1px 0 var(--line-color) !important;
 		}
 		/*
