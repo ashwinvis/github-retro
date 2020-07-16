@@ -24,8 +24,8 @@
 			padding-right: 32px !important;
 		}
 		/* Horizontal line under header */
-		div.bg-gray-light,
-		header.pagehead > div {
+		main > div:nth-child(1),
+		header.orghead > div:nth-child(2) {
 			box-shadow: inset 0 -1px 0 var(--line-color) !important;
 		}
 		/*
