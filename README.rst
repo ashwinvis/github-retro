@@ -15,11 +15,11 @@ Retrofit the repository interface prior to June 2020 GitHub update.
 Preview
 -------
 
-======== ========
-Before   After
-======== ========
-|image0| |image1|
-======== ========
+========= ========
+Before    |image0|
+========= ========
+**After**    |image1|
+========= ========
 
 Installation
 ------------
