@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         GitHub Retro
-@version      0.1.2
+@version      0.1.3
 @description  Retrofit the repository interface prior to June 2020 GitHub update
 @namespace    ashwinvis
 @author       ashwinvis
@@ -22,8 +22,6 @@
 			max-width: 1280px;
 			margin-left: auto;
 			margin-right: auto;
-			padding-left: 32px !important;
-			padding-right: 32px !important;
 		}
 		/* Horizontal line under header */
 		main > div:nth-child(1),
