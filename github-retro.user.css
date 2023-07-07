@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         GitHub Retro
-@version      0.1.3
+@version      0.1.4
 @description  Retrofit the repository interface prior to June 2020 GitHub update
 @namespace    ashwinvis
 @author       ashwinvis
@@ -17,7 +17,11 @@
 	}
 
 	@media (min-width: 1280px) {
-		main > div > div.d-flex,
+		div.js-global-bar {
+			max-width: 1310px;
+			margin-left: auto;
+			margin-right: auto;
+		}
 		nav.UnderlineNav {
 			max-width: 1280px;
 			margin-left: auto;
