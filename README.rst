@@ -15,11 +15,7 @@ Retrofit the repository interface prior to June 2020 GitHub update.
 Preview
 -------
 
-========= ========
-Before    |image0|
-========= ========
-**After**    |image1|
-========= ========
+|image2|
 
 Installation
 ------------
@@ -54,4 +50,6 @@ If you would like to contribute to this repository, please…
 .. |image0| image:: https://user-images.githubusercontent.com/9155111/85446389-ac604900-b594-11ea-8a1f-1018031719e0.png
     :width: 80%
 .. |image1| image:: https://user-images.githubusercontent.com/9155111/85515309-42c85500-b5fd-11ea-94d1-057e972bdc8c.png
+    :width: 80%
+.. |image2| image:: https://userstyles.world/preview/634/1.webp
     :width: 80%
