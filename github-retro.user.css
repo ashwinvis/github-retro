@@ -51,4 +51,14 @@
 	.avatar-user {
 		border-radius: 10% !important;
 	}
+	.avatar {
+		border-radius: 20% !important;
+	}
+}
+@-moz-document domain("gist.github.com") {
+	div.gisthead > div {
+		max-width: 1050px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
